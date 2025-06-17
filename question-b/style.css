@@ -1,0 +1,46 @@
+body {
+  background: linear-gradient(to right, #b94e01, #910046);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+#cleaned,
+#result {
+  margin-top: 10px;
+  font-size: 18px;
+}
+.valid {
+  color: #00ff00;
+}
+.invalid {
+  color: #ff4c4c;
+}
